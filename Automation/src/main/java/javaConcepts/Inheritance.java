@@ -3,7 +3,7 @@ package javaConcepts;
 public class Inheritance {
 	public void states1() {
 		System.out.println("TAMILNADU");
-		
+		//
 }
 	public void states2() {
 		System.out.println("KERALA");

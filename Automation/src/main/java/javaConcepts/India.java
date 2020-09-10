@@ -9,6 +9,7 @@ public class India extends Inheritance{
 		state3();
 		f4.states4();
 		states5();
+		//
 	}
 
 }

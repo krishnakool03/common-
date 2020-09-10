@@ -15,7 +15,7 @@ public class School extends States {
 	 System.out.println("BIOLOGY");
 	 System.out.println("HISTRY");
 	 System.out.println("ENVIRONMENTAL");	 
-
+//
  }
  public void studentName () {
 	 System.out.println("STUDENT NAMES:");

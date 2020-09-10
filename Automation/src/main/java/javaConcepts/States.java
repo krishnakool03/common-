@@ -4,7 +4,7 @@ public class States extends District {
 	public void tamilNadu() {
 		System.out.println("TAMILNADU");
 		System.out.println("World famous book thirukural");
-		
+		//
 	}
 	public void karnataka() {
 		System.out.println("BANGLORE");

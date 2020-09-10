@@ -28,7 +28,7 @@ public class College {
 		System.out.println("B.SC(maths = 95%");
 		System.out.println("B.E(computer science = 100%)");
 		
-		
+		//
 		
 	}
 	public static void departmentWiseFailedStudentsOfPercentage() {
@@ -39,7 +39,7 @@ public class College {
 	System.out.println("BCA = 35%");
 	System.out.println("B.SC(maths = 5%");
 	System.out.println("B.E(computer science = 0%)");
-
+//
 	}
 	public void departmentInRankWise() {
 		

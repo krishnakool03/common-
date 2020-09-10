@@ -3,6 +3,7 @@ package javaConcepts;
 public class District {
 	public static void dist1() {
 		System.out.println("Cuddalore");
+		//
 	}
 	public void dist2() {
 		System.out.println("Salem");

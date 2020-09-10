@@ -1,23 +1,23 @@
 Feature: User should select Holiday Gift categories and print the final products in Adorebeauty.com
 @giftsets0
 Scenario:  buy gifts at adorebeauty and print the last product's price .
-Given usern Adorebeauty.com
-When user navigates to Login window.
-And User click the gift under menu  
-Then click the giftsets 
+Given user log in Adorebeauty environment
+When user navigates to Login page.
+And User click the gift under menu tab 
+Then click the giftsets in gift
 Then select products ,age,ingredients and skin concern preferences and check the products
-Then click the giftsets where selecet the final  Brands of the product
+And click the giftsets in which selecet the final  Brands of the product
 Then get the price for the chosen product
 
 
-@mobile1
-Scenario: oppo mobile details
-Given users is on Amazon.com
-When user navigates to Login window
-And User click mobiles button g
-Then click mobiles and accessories g
-Then select mobile brand whichever is neededgg
-And select sortby which has dropdown box g
-Then select the price from low to high in dropdown listg
+@makeupgifts
+Scenario: shop makeup gifts module and print the last product's price
+Given user log in Adorebeauty environment
+When user navigates to Login page
+And User click the gift under menu tab  
+Then click the makeupgiftsets 
+Then select the price ingredients preference which comes under Filter by
+And deselect all the products which you are  selected 
+Then get the price for the final product
 
 

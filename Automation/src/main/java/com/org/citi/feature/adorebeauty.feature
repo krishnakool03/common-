@@ -1,5 +1,5 @@
 Feature: User should select Holiday Gift categories and print the final products in Adorebeauty.com
-@giftsets0
+@giftsets0  @er
 Scenario:  buy gifts at adorebeauty and print the last product's price .
 Given user log in Adorebeauty environment
 When user navigates to Login page.
@@ -10,7 +10,7 @@ And click the giftsets in which selecet the final  Brands of the product
 Then get the price for the chosen product
 
 
-@makeupgifts
+@makeupgifts @er
 Scenario: shop makeup gifts module and print the last product's price
 Given user log in Adorebeauty environment
 When user navigates to Login page

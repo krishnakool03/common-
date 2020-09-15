@@ -10,10 +10,10 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 
 @CucumberOptions(
-        features = "src/main/java/Features/login.feature",
-        glue = {"stepDefinitions"},
-        tags = {"~@Selva","@same"},
-        dryRun=true,
+        features = "C:\\Users\\krishnakool\\git\\common-\\Automation\\src\\main\\java\\com\\org\\citi\\feature\\aircannada.feature",
+        glue = {"com.org.citi.steps"},
+        tags = {"@book"},
+        dryRun=false,
         snippets=SnippetType.CAMELCASE,
         format = {
                 "pretty",
